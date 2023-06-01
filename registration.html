@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="registration.css">
+
+    <!-- BOOTSTRAP  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.6/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- IKONE - FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+    <title>OptikaPlus.hr</title>
+</head>
+
+<body>
+    <div class="container-fluid" style="background: #9760A6; padding: 20px;">
+        <div class="top">
+            <a href="www.google.com" style="color: #f2f2f2; font-size: 28px; text-decoration: none;"> <b> OptikaPlus.hr
+                </b></a>
+
+            <span class="gore-desno">
+                <!-- Search form -->
+                <form class="d-block" role="search">
+                    <input class="form-control me-1" type="search" placeholder="&#xF002; Pretraživanje"
+                        style="font-family:Arial, FontAwesome; background: #D8BAD9; border-color: #D8BAD9; "
+                        aria-hidden="true">
+                </form>
+                <!-- Ikone -> Pristupačnost; Shopping-cart; User -->
+                <i class="fa-solid fa-eye" style="color: #f2f2f2; font-size: 28px; margin-left: 20px;"></i>
+                <i class="fa-sharp fa-solid fa-cart-shopping"
+                    style="color: #f2f2f2; font-size: 28px; margin-left: 20px;"></i>
+
+                <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown">
+                    <i class="fa-solid fa-user" style="color: #f2f2f2; font-size: 28px; margin-left: 20px;"></i>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Prijava</a></li>
+                        <li><a class="dropdown-item" href="registration.html">Registracija</a></li>
+                    </ul>
+                </a>
+
+            </span>
+        </div>
+    </div>
+
+
+
+    <!-- Navigacija -->
+    <div class="container navigation">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsingNavbar2" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse justify-content-between align-items-center w-100"
+                    id="collapsingNavbar2">
+                    <ul class="navbar-nav mx-auto text-md-center text-left">
+
+                        <!-- Item 1 -->
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Leće</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link</a></li>
+                                <li><a class="dropdown-item" href="#">Another link</a></li>
+                                <li><a class="dropdown-item" href="#">A third link</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Item 2 -->
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Dioptrijske
+                                naočale</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link</a></li>
+                                <li><a class="dropdown-item" href="#">Another link</a></li>
+                                <li><a class="dropdown-item" href="#">A third link</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Item 3 -->
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Sunčane
+                                naočale</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link</a></li>
+                                <li><a class="dropdown-item" href="#">Another link</a></li>
+                                <li><a class="dropdown-item" href="#">A third link</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Item 4 -->
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Dodaci</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link</a></li>
+                                <li><a class="dropdown-item" href="#">Another link</a></li>
+                                <li><a class="dropdown-item" href="#">A third link</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Item 5 -->
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Outlet</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link</a></li>
+                                <li><a class="dropdown-item" href="#">Another link</a></li>
+                                <li><a class="dropdown-item" href="#">A third link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!--Registration-->
+
+    <div class="container reg">
+        <form name="my-form">
+            <h2><u>Registracija</u></h1>
+                <div class="osnovne-info" style="justify-content: center; text-align: center;">
+                    <h3>Osnovne informacije</h3>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-6 col-form-label text-md-right">Email:*</label>
+                        <div class="col-md-4">
+                            <input type="email" id="email" class="form-control" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="name" class="col-md-6 col-form-label text-md-right">Ime:*</label>
+                        <div class="col-md-4">
+                            <input type="text" id="name" class="form-control" name="name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="surname" class="col-md-6 col-form-label text-md-right">Prezime:*</label>
+                        <div class="col-md-4">
+                            <input type="text" id="surname" class="form-control" name="surname">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="phone" class="col-md-6 col-form-label text-md-right">Broj mobitela:*</label>
+                        <div class="col-md-4">
+                            <input type="phone" id="phone" class="form-control" name="phone">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="podaci-za-dostavu" style="justify-content: center; text-align: center;">
+                    <h3>Podaci za dostavu</h3>
+                    <div class="form-group row">
+                        <label for="street" class="col-md-6 col-form-label text-md-right">Ulica:*</label>
+                        <div class="col-md-4">
+                            <input type="text" id="street" class="form-control" name="street">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="house" class="col-md-6 col-form-label text-md-right">Kućni broj:*</label>
+                        <div class="col-md-4">
+                            <input type="number" id="house" class="form-control" name="house">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="city" class="col-md-6 col-form-label text-md-right">Grad:*</label>
+                        <div class="col-md-4">
+                            <input type="text" id="city" class="form-control" name="city">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="zip" class="col-md-6 col-form-label text-md-right">Poštanski broj:*</label>
+                        <div class="col-md-4">
+                            <input type="number" id="zip" class="form-control" name="zip">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-check"
+                    style="justify-content: center; align-items: center; display: flex; margin-top: 15px;">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault" style="margin-left: 15px;">
+                        Slažem se da primam obavijesti o <br> novostima, popustima i posebnim <br> ponudama na svoj
+                        e-mail o
+                        SMS.
+                    </label>
+                </div>
+
+                <div class="form-check"
+                    style="justify-content: center; align-items: center; display: flex; margin-top: 15px;">
+                    <input class="form-check-input" type="checkbox" value="" id="accept" name="accept">
+                    <label class="form-check-label" for="flexCheckDefault" style="margin-left: 15px;">
+                        Pročitao sam <u><b> Uvjete prodaje</b></u> i <br> slažem se s njima.*
+                    </label>
+                </div>
+
+                <div class="gumb"
+                    style="justify-content: center; align-items: center; display: flex; margin-top: 15px;">
+                    <button type="button" class="btn submit"
+                        style="padding: 30px; font-size: 18px; background: #D8BAD9;"
+                        onclick="provjeri()">Registracija</button>
+                </div>
+
+
+        </form>
+    </div>
+    <script>
+
+        function provjeri() {
+
+            var a = document.forms["my-form"]["email"].value;
+            var b = document.forms["my-form"]["name"].value;
+            var c = document.forms["my-form"]["surname"].value;
+            var d = document.forms["my-form"]["phone"].value;
+            var e = document.forms["my-form"]["street"].value;
+            var f = document.forms["my-form"]["house"].value;
+            var g = document.forms["my-form"]["city"].value;
+            var h = document.forms["my-form"]["zip"].value;
+            var cb = document.querySelector('#accept');
+
+            if (a == null || a == "") {
+                alert("Please Enter Your E-mail");
+                return false;
+            } else if (b == null || b == "") {
+                alert("Please Enter Your Name");
+                return false;
+            } else if (c == null || c == "") {
+                alert("Please Enter Your Surname");
+                return false;
+            } else if (d == null || d == "") {
+                alert("Please Enter Your Phone Number");
+                return false;
+            } else if (e == null || e == "") {
+                alert("Please Enter Your Street Name");
+                return false;
+            } else if (f == null || f == "") {
+                alert("Please Enter Your House Number");
+                return false;
+            }else if (g == null || g == "") {
+                alert("Please Enter Your City");
+                return false;
+            }else if (h == null || h == "") {
+                alert("Please Enter Zip Number");
+                return false;
+            }else if (cb.checked == false) {
+                alert("Please Check 'Uvjete prodaje'");
+                return false;
+            }else{
+                window.open("registration-done.html")
+            }
+
+        }
+
+    </script>
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <a href="#" class="footer-heading">
+                            <h5> <u> O nama </u></h5>
+                        </a>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 "
+                                    style="cursor: default;">Povijest</a></li>
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 " style="cursor: default;">Povijest
+                                    1</a></li>
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 " style="cursor: default;">Povijest
+                                    2</a></li>
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0" style="cursor: default;">Povijest
+                                    3</a></li>
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 " style="cursor: default;">Povijest
+                                    4</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <a href="#" class="footer-heading">
+                            <h5><u> Kontakt </u></h5>
+                        </a>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 " style="cursor: default;">Kontakt
+                                    1</a></li>
+                            <li class="nav-item mb-2"><a href="" class="nav-link p-0 " style="cursor: default;">Kontakt
+                                    2</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5><u> Pratite nas </u></h5>
+                        <ul class="nav flex-column">
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="fab fa-facebook" aria-hidden="true"
+                                        style="font-size: 28px; color: white; margin: 5px;"></i></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="fab fa-instagram"
+                                        aria-hidden="true" style="font-size: 28px; color: white; margin: 5px;"></i></a>
+                            </li>
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="fab fa-youtube" aria-hidden="true"
+                                        style="font-size: 28px; color: white; margin: 5px;"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            </div>
+                            <button class="btn" type="button"
+                                style="margin-top: 5px; background: #D8BAD9;">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>© 2023 OptikaPlus.hr, All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fab fa-facebook"
+                                    aria-hidden="true"></i></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fab fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fab fa-youtube"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- Bootstrap scripst -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
