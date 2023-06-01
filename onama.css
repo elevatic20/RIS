@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600;700&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F2F2F2;
+    color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Ikone */
+
+i.fa-solid.fa-user:hover{
+    transform: translateY(-5px);
+}
+
+i.fa-solid.fa-eye:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+i.fa-solid.fa-cart-shopping:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+i.fa-sharp.fa-solid.fa-circle-info:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+/* Pretraživanje */
+
+.form-control.me-1::placeholder{
+    color: #F2F2F2;
+    opacity: 0.8;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+.gore-desno{
+    display:flex;
+}
+
+/* Navigacija */
+
+.container.navigation{
+    background: #D8BAD9;
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px;
+}
+
+.nav-link.dropdown-toggle{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+ul.dropdown-menu{
+    background: #9760A6;
+}
+
+a.dropdown-item{
+    color: white;
+}
+
+a.dropdown-item:hover{
+    background: #D8BAD9;
+}
+
+
+/* Footer */
+.container-fluid.footer{
+    background: #9760A6;
+    color: white;
+}
+
+.footer-heading{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item.mb-2 a{
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row > div[class^="col-"] {
+        width: 100%;
+        text-align: center;
+      }
+}
