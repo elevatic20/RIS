@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- STYLE -->
-    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="../style/product.css">
 
     <!-- BOOTSTRAP  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -85,7 +85,7 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dioptrijske
                   naočale</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Muške</a></li>
+                  <li><a class="dropdown-item" href="doptrijske-muske.html">Muške</a></li>
                   <li><a class="dropdown-item" href="#">Ženske</a></li>
                   <li><a class="dropdown-item" href="#">Dječje</a></li>
                 </ul>
@@ -128,150 +128,120 @@
       </nav>
     </div>
   
-    <div class="container reg">
-        <form name="my-form">
-            <h2><u>Registracija</u></h1>
-                <div class="osnovne-info" style="justify-content: center; text-align: center;">
-                    <h3>Osnovne informacije</h3>
-                    <div class="form-group row">
-                        <label for="email" class="col-md-6 col-form-label text-md-right">Email:*</label>
-                        <div class="col-md-4">
-                            <input type="email" id="email" class="form-control" name="email">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="name" class="col-md-6 col-form-label text-md-right">Ime:*</label>
-                        <div class="col-md-4">
-                            <input type="text" id="name" class="form-control" name="name">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="surname" class="col-md-6 col-form-label text-md-right">Prezime:*</label>
-                        <div class="col-md-4">
-                            <input type="text" id="surname" class="form-control" name="surname">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="phone" class="col-md-6 col-form-label text-md-right">Broj mobitela:*</label>
-                        <div class="col-md-4">
-                            <input type="phone" id="phone" class="form-control" name="phone">
-                        </div>
-                    </div>
-                </div>
 
-                <div class="podaci-za-dostavu" style="justify-content: center; text-align: center;">
-                    <h3>Podaci za dostavu</h3>
-                    <div class="form-group row">
-                        <label for="street" class="col-md-6 col-form-label text-md-right">Ulica:*</label>
-                        <div class="col-md-4">
-                            <input type="text" id="street" class="form-control" name="street">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="house" class="col-md-6 col-form-label text-md-right">Kućni broj:*</label>
-                        <div class="col-md-4">
-                            <input type="number" id="house" class="form-control" name="house">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="city" class="col-md-6 col-form-label text-md-right">Grad:*</label>
-                        <div class="col-md-4">
-                            <input type="text" id="city" class="form-control" name="city">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="zip" class="col-md-6 col-form-label text-md-right">Poštanski broj:*</label>
-                        <div class="col-md-4">
-                            <input type="number" id="zip" class="form-control" name="zip">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="form-check"
-                    style="justify-content: center; align-items: center; display: flex; margin-top: 15px;">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault" style="margin-left: 15px;">
-                        Slažem se da primam obavijesti o <br> novostima, popustima i posebnim <br> ponudama na svoj
-                        e-mail o
-                        SMS.
-                    </label>
-                </div>
-
-                <div class="form-check"
-                    style="justify-content: center; align-items: center; display: flex; margin-top: 15px;">
-                    <input class="form-check-input" type="checkbox" value="" id="accept" name="accept">
-                    <label class="form-check-label" for="flexCheckDefault" style="margin-left: 15px;">
-                        Pročitao sam <u><b> Uvjete prodaje</b></u> i <br> slažem se s njima.*
-                    </label>
-                </div>
-
-                <div class="gumb"
-                    style="justify-content: center; align-items: center; display: flex; margin-top: 15px;">
-                    <button type="button" class="btn submit"
-                        style="padding: 30px; font-size: 18px; background: #D8BAD9;"
-                        onclick="provjeri()">Registracija</button>
-                </div>
-
-
-        </form>
+    <!--Breadcrumv-->
+    <div class="bread" style="margin-left: 5%; margin-top: 2%;">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+            aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html"><i class="fa-solid fa-house"
+                            style="color: #D8BAD9;"></i></a></li>
+                <li class="breadcrumb-item active" aria-current="page">Product</li>
+            </ol>
+        </nav>
     </div>
 
-    <!-- Popup -->
-    <div id="popup-box" class="modal">
-        <div class="content" style="background: #9760A6;">
-            <h1 style="color: rgb(255, 255, 255);">
-                Uspješno ste izradili 
-korisnički račun !
-            </h1>
-            <a href="index.html"
-               class="box-close">
-                ×
-            </a>
+    <!-- Product  -->
+    <div class="container">
+        <h2> <b><u> Product name </u></b></h2>
+
+        <div class="row" style="margin-top: 15px;">
+            <div class="col-5">
+                <div class="card mb-2">
+                    <a href=""><img
+                            src="https://images.pexels.com/photos/9981165/pexels-photo-9981165.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                            class="card-img-top" alt="Product 1"> </a>
+
+                    <div class="card-body">
+                        <a href="#" class="gumb" style="text-decoration:none; color: #000000; font-size: 32px;"><i class="fa-sharp fa-solid fa-cart-shopping"
+                                style="color: #000000; font-size: 38px;"></i> <b> U
+                                    KOŠARICU</b></a>
+                    </div>
+                    
+                </div>
+                <div class="row" style="padding: 12px;">
+                    <button type="button" onclick="window.open('virtualno.html' , '_self')" class="btn" style="font-size: 32px; background: #9760A6; border-radius: 15px; margin-bottom: 15px; margin-top: 5px;"><b>VIRTUALNO OGLEDALO</b></button>
+                </div>
+                
+            </div>
+            <div class="col-7">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                    enim.
+                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+                    imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                    Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+                    porttitor eu, consequat vitae, eleifend ac, enim.Lorem ipsum dolor sit amet, consectetuer adipiscing
+                    elit.
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+                    parturient
+                    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                    Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+                    In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis
+                    pretium.
+                    Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+                    Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. enim. Donec pede justo,
+                    fringill
+                    a vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdd tellus. Aenean leo l
+                    igula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+
+                    <h5 class="float-end"> <b>Cijena: 150e</b></h5>
+            </div>
         </div>
     </div>
 
-    <style>
-        p {
-            font-size: 17px;
-            align-items: center;
-        }
-        .modal {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(242, 200, 255, 0.7);
-            transition: all 0.4s;
-            visibility: hidden;
-            opacity: 0;
-        }
-        .content {
-            position: absolute;
-            background: white;
-            width: 400px;
-            padding: 1em 2em;
-            border-radius: 4px;
-        }
-        .modal {
-            visibility: visible;
-            opacity: 1;
-        }
-        .box-close {
-            position: absolute;
-            top: 0;
-            right: 15px;
-            color: #D8BAD9;
-            text-decoration: none;
-            font-size: 30px;
-        }
-    </style>
+    <!-- Slicni proizovdi -->
 
-    <!-- Footer -->
+    <div class="container mt-4">
+        <h2> <u>Najprodavaniji proizvodi</u> </h2>
+        <div class="row" style="margin-top: 35px;">
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="cijena">
+                <a href="#"><img src="https://images.pexels.com/photos/9981165/pexels-photo-9981165.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="Product 1"> </a>
+                <div class="bottom-left">Bottom Left</div>
+              </div>
+    
+              <div class="card-body hidden">
+                <a href="#" class="gumb"><i class="fa-sharp fa-solid fa-circle-info"
+                  style="color: #000000; font-size: 38px;"></i>
+                <a href="dioptrija.html" class="gumb"><i class="fa-sharp fa-solid fa-cart-shopping"
+                    style="color: #000000; font-size: 38px;"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="cijena">
+                <a href="#"><img src="https://images.pexels.com/photos/7040721/pexels-photo-7040721.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="Product 1"> </a>
+                <div class="bottom-left">Bottom Left</div>
+              </div>
+              <div class="card-body hidden">
+                <a href="#" class="gumb"><i class="fa-sharp fa-solid fa-circle-info"
+                  style="color: #000000; font-size: 38px;"></i>
+                <a href="dioptrija.html" class="gumb"><i class="fa-sharp fa-solid fa-cart-shopping"
+                    style="color: #000000; font-size: 38px;"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="cijena">
+                <a href="#"><img src="https://images.pexels.com/photos/7040724/pexels-photo-7040724.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="Product 1"> </a>
+                <div class="bottom-left">Bottom Left</div>
+              </div>
+              <div class="card-body hidden">
+                <a href="#" class="gumb"><i class="fa-sharp fa-solid fa-circle-info"
+                  style="color: #000000; font-size: 38px;"></i>
+                <a href="dioptrija.html" class="gumb"><i class="fa-sharp fa-solid fa-cart-shopping"
+                    style="color: #000000; font-size: 38px;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--Footer-->
     <div class="container-fluid footer">
         <div class="container">
             <footer class="py-5">
@@ -295,7 +265,7 @@ korisnički račun !
                     </div>
 
                     <div class="col-6 col-md-2 mb-3">
-                        <a href="#" class="footer-heading">
+                        <a href="kontakt.html" class="footer-heading">
                             <h5><u> Kontakt </u></h5>
                         </a>
                         <ul class="nav flex-column">

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- STYLE -->
-    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="../style/kontakt.css">
 
     <!-- BOOTSTRAP  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -85,7 +85,7 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dioptrijske
                   naočale</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Muške</a></li>
+                  <li><a class="dropdown-item" href="doptrijske-muske.html">Muške</a></li>
                   <li><a class="dropdown-item" href="#">Ženske</a></li>
                   <li><a class="dropdown-item" href="#">Dječje</a></li>
                 </ul>
@@ -129,146 +129,112 @@
     </div>
   
 
-
-    <!--Registration-->
-
-    <div class="container reg">
-        <form name="my-form">
-            <h2><u>Registracija</u></h1>
-                <div class="osnovne-info" style="justify-content: center; text-align: center;">
-                    <h3>Osnovne informacije</h3>
-                    <div class="form-group row">
-                        <label for="email" class="col-md-6 col-form-label text-md-right">Email:*</label>
-                        <div class="col-md-4">
-                            <input type="email" id="email" class="form-control" name="email">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="name" class="col-md-6 col-form-label text-md-right">Ime:*</label>
-                        <div class="col-md-4">
-                            <input type="text" id="name" class="form-control" name="name">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="surname" class="col-md-6 col-form-label text-md-right">Prezime:*</label>
-                        <div class="col-md-4">
-                            <input type="text" id="surname" class="form-control" name="surname">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="phone" class="col-md-6 col-form-label text-md-right">Broj mobitela:*</label>
-                        <div class="col-md-4">
-                            <input type="phone" id="phone" class="form-control" name="phone">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="podaci-za-dostavu" style="justify-content: center; text-align: center;">
-                    <h3>Podaci za dostavu</h3>
-                    <div class="form-group row">
-                        <label for="street" class="col-md-6 col-form-label text-md-right">Ulica:*</label>
-                        <div class="col-md-4">
-                            <input type="text" id="street" class="form-control" name="street">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="house" class="col-md-6 col-form-label text-md-right">Kućni broj:*</label>
-                        <div class="col-md-4">
-                            <input type="number" id="house" class="form-control" name="house">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="city" class="col-md-6 col-form-label text-md-right">Grad:*</label>
-                        <div class="col-md-4">
-                            <input type="text" id="city" class="form-control" name="city">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="zip" class="col-md-6 col-form-label text-md-right">Poštanski broj:*</label>
-                        <div class="col-md-4">
-                            <input type="number" id="zip" class="form-control" name="zip">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="form-check"
-                    style="justify-content: center; align-items: center; display: flex; margin-top: 15px;">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault" style="margin-left: 15px;">
-                        Slažem se da primam obavijesti o <br> novostima, popustima i posebnim <br> ponudama na svoj
-                        e-mail o
-                        SMS.
-                    </label>
-                </div>
-
-                <div class="form-check"
-                    style="justify-content: center; align-items: center; display: flex; margin-top: 15px;">
-                    <input class="form-check-input" type="checkbox" value="" id="accept" name="accept">
-                    <label class="form-check-label" for="flexCheckDefault" style="margin-left: 15px;">
-                        Pročitao sam <u><b> Uvjete prodaje</b></u> i <br> slažem se s njima.*
-                    </label>
-                </div>
-
-                <div class="gumb"
-                    style="justify-content: center; align-items: center; display: flex; margin-top: 15px;">
-                    <button type="button" class="btn submit"
-                        style="padding: 30px; font-size: 18px; background: #D8BAD9;"
-                        onclick="provjeri()">Registracija</button>
-                </div>
-
-
-        </form>
+    <!--Breadcrumv-->
+    <div class="bread" style="margin-left: 5%; margin-top: 2%;">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+            aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html"><i class="fa-solid fa-house"
+                            style="color: #D8BAD9;"></i></a></li>
+                <li class="breadcrumb-item active" aria-current="page">Kontakt</li>
+            </ol>
+        </nav>
     </div>
+    <!-- gornja sekcija -->
+    <div class="container">
+        <div class="row">
+            <h5>Možeš nas kontaktirati na sljedeće načine !</h2>
+        </div>
+        <div class="row" style="margin-top: 2%;">
+            <div class="col-4">
+                <p> <b>Podrška za online trgovinu: </b></p>
+                <p>nazivtvrtketrgovina@gmail.com</p>
+                <p>098-987-2234</p>
+            </div>
+            <div class="col-4">
+                <p><b>Podrška za narudžbe</b></p>
+                <p>nazivtvrtkenarudzba@gmail.com</p>
+                <p>098-987-2235</p>
+            </div>
+            <div class="col-4">
+                <p><b>Tražiš posao?</b></p>
+                <p>nazivtvrtkezaposlenje@gmail.com</p>
+                <p>098-987-2236</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Donja sekcija -->
+    <div class="container" style="margin-top: 15px;">
+        <div class="row"> <h5>Reci nam svoj problem i mi ćemo kontaktirati tebe !</h2></div>
+        <div class="row" style="background: #D8BAD9; margin-top: 15px; border-radius: 15px;">
+            <div class="col-4" style="margin: 15px;">
+                <label for="name">Ime i prezime:</label><br>
+                <input type="text" id="name" style="border-radius: 10px; border: 0;" placeholder="  Ime i prezime">
+                
+                <br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" style="border-radius: 10px; border: 0;" placeholder="  E-mail">
+                
+                <br>
+                <label for="razlog">Razlog kontaktiranja:</label><br>
+                <select name="razlog" id="razlog" style="border-radius: 10px; padding-right: 115px;">
+                    <option value="razlog1">Razlog1</option>
+                    <option value="razlog2">Razlog2</option>
+                    <option value="razlog3">Razlog3</option>
+                    <option value="razlog4">Razlog4</option>
+                  </select>
+            </div>
+            <div class="col-7" style="margin: 15px;">
+                <label for="problem">Opiši svoj problem: </label><br>
+                <textarea name="problem" id="mess" rows="8" style="border-radius: 10px; width: 100%; border: 0;" placeholder="  Upiši svoju poruku!"></textarea>
+            </div>
+        </div>
+        <div class="clearfix">
+            <button type="button" onclick="prov()" class="btn float-end" style="background: #D8BAD9; border-radius: 15px; margin-bottom: 15px; margin-top: 15px;">Pošalji</button>
+        </div>
+
+        <span id="msg" style="margin: 15px;"></span>
+       
+
+    </div>
+    
     <script>
 
-        function provjeri() {
+        function prov() {
 
-            var a = document.forms["my-form"]["email"].value;
-            var b = document.forms["my-form"]["name"].value;
-            var c = document.forms["my-form"]["surname"].value;
-            var d = document.forms["my-form"]["phone"].value;
-            var e = document.forms["my-form"]["street"].value;
-            var f = document.forms["my-form"]["house"].value;
-            var g = document.forms["my-form"]["city"].value;
-            var h = document.forms["my-form"]["zip"].value;
-            var cb = document.querySelector('#accept');
+            var a = document.getElementById("name").value;
+            var b = document.getElementById("email").value;
+            var c = document.getElementById("razlog").value;
+            var d = document.getElementById("mess").value;
+            const msg = document.getElementById("msg");
 
             if (a == null || a == "") {
-                alert("Please Enter Your E-mail");
+                alert("Please Enter Your Ime i Prezime");
                 return false;
             } else if (b == null || b == "") {
-                alert("Please Enter Your Name");
+                alert("Please Enter Your Email");
                 return false;
             } else if (c == null || c == "") {
-                alert("Please Enter Your Surname");
+                alert("Please Enter Your Razlog");
                 return false;
             } else if (d == null || d == "") {
-                alert("Please Enter Your Phone Number");
-                return false;
-            } else if (e == null || e == "") {
-                alert("Please Enter Your Street Name");
-                return false;
-            } else if (f == null || f == "") {
-                alert("Please Enter Your House Number");
-                return false;
-            }else if (g == null || g == "") {
-                alert("Please Enter Your City");
-                return false;
-            }else if (h == null || h == "") {
-                alert("Please Enter Zip Number");
-                return false;
-            }else if (cb.checked == false) {
-                alert("Please Check 'Uvjete prodaje'");
+                alert("Please Enter Your Poruka");
                 return false;
             }else{
-                window.open("registration-done.html" , "_self")
+                msg.innerHTML = "Message Sent Successfully!"
+                setTimeout(function(){
+                    msg.innerHTML ="";
+                }, 700)
+                window.open("onama.html" , "_self")
             }
 
         }
 
     </script>
-    <!-- Footer -->
+    <!--Footer-->
     <div class="container-fluid footer">
         <div class="container">
             <footer class="py-5">
