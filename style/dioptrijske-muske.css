@@ -162,20 +162,6 @@ a.dropdown-item:hover{
     color: white;
 }
 
-@media (max-width: 767px) {
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .row > div[class^="col-"] {
-        width: 100%;
-        text-align: center;
-      }
-}
-
-
-
 /* Filter */
 
 section ul{
@@ -214,3 +200,21 @@ section ul li.active{
     height: 100%;
     object-fit: cover;
 }
+
+
+@media (max-width: 767px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row > div[class^="col-"] {
+        width: 100%;
+        text-align: center;
+      }
+
+      section ul{
+        display: block;
+    }
+}
+
